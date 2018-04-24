@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Ремонт на орской" company="" webLink="http://" view-date="2018-04-14" view-index="0" gantt-divider-location="720" resource-divider-location="300" version="2.8.5" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Ремонт на орской" company="" webLink="http://" view-date="2018-05-06" view-index="0" gantt-divider-location="720" resource-divider-location="300" version="2.8.5" locale="en_US">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Name" width="342" order="0"/>
         <field id="tpd4" name="Begin date" width="177" order="1"/>
         <field id="tpd5" name="End date" width="197" order="2"/>
@@ -33,67 +33,78 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Электрика" meeting="false" start="2018-04-14" duration="6" complete="0" expand="false">
-            <task id="55" name="Подвод кабелей" meeting="false" start="2018-04-14" duration="6" complete="0" expand="true">
-                <task id="56" name="Кухня" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true">
-                    <depend id="51" type="2" difference="0" hardness="Strong"/>
+        <task id="0" name="Электрика" meeting="false" start="2018-04-24" duration="27" complete="0" expand="true">
+            <task id="55" name="Подвод кабелей" meeting="false" start="2018-04-24" duration="27" complete="0" expand="true">
+                <task id="45" name="Спальня л" color="#8cb6ce" meeting="false" start="2018-04-24" duration="5" complete="0" expand="true">
+                    <depend id="49" type="2" difference="0" hardness="Strong"/>
+                    <depend id="62" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="51" name="Зал" meeting="false" start="2018-04-15" duration="1" complete="0" expand="true">
+                <task id="49" name="Ванная" meeting="false" start="2018-04-29" duration="5" complete="0" expand="true">
+                    <depend id="56" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="56" name="Кухня" color="#8cb6ce" meeting="false" start="2018-05-04" duration="5" complete="0" expand="true">
                     <depend id="47" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="47" name="Коридор" meeting="false" start="2018-04-16" duration="1" complete="0" expand="true">
-                    <depend id="49" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="49" name="Ванная" meeting="false" start="2018-04-17" duration="1" complete="0" expand="true">
-                    <depend id="45" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="45" name="Спальня л" meeting="false" start="2018-04-18" duration="1" complete="0" expand="true">
+                <task id="47" name="Коридор" meeting="false" start="2018-05-09" duration="5" complete="0" expand="true">
                     <depend id="53" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="53" name="Спальня п" meeting="false" start="2018-04-19" duration="1" complete="0" expand="true"/>
+                <task id="53" name="Спальня п" meeting="false" start="2018-05-14" duration="4" complete="0" expand="true">
+                    <depend id="51" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="51" name="Зал" meeting="false" start="2018-05-18" duration="3" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="43" name="Разводка кабелей по розеткам" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="60" name="Установка подрозетников" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="58" name="Разводка освещения по точкам" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="62" name="Трассы для кондиционеров" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="2" name="Ванная комната" meeting="false" start="2018-04-14" duration="10" complete="0" expand="true">
-            <task id="10" name="Установить каркас из металлопрофиля" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true">
-                <depend id="12" type="2" difference="0" hardness="Strong"/>
+        <task id="62" name="Трассы для кондиционеров" color="#8cb6ce" meeting="false" start="2018-04-29" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Ванная комната" color="#000000" meeting="false" start="2018-04-24" duration="30" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <task id="12" name="Положить черновую плитку под ванной" color="#8cb6ce" meeting="false" start="2018-04-24" duration="1" complete="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="12" name="Положить черновую плитку под ванной" meeting="false" start="2018-04-15" duration="1" complete="0" expand="true">
+            <task id="10" name="Установить каркас из металлопрофиля" meeting="false" start="2018-04-25" duration="4" complete="0" expand="true">
                 <depend id="14" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="14" name="Развести кабель для освещения, закрыть штробы" meeting="false" start="2018-04-16" duration="1" complete="0" expand="true">
+            <task id="14" name="Развести кабель для освещения, закрыть штробы" meeting="false" start="2018-04-29" duration="1" complete="0" expand="true">
                 <depend id="20" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="20" name="Установить ванну" meeting="false" start="2018-04-17" duration="1" complete="0" expand="true">
+            <task id="20" name="Установить ванну" meeting="false" start="2018-04-30" duration="1" complete="0" expand="true">
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="18" name="Установить экран из гипсокартона" meeting="false" start="2018-04-18" duration="1" complete="0" expand="true">
+            <task id="18" name="Установить экран из гипсокартона" meeting="false" start="2018-05-01" duration="1" complete="0" expand="true">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="16" name="Положить настенную плитку" meeting="false" start="2018-04-19" duration="1" complete="0" expand="true">
+            <task id="16" name="Положить настенную плитку" meeting="false" start="2018-05-02" duration="8" complete="0" expand="true">
                 <depend id="22" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="22" name="Установить теплый пол" meeting="false" start="2018-04-20" duration="1" complete="0" expand="true">
+            <task id="22" name="Установить теплый пол" meeting="false" start="2018-05-10" duration="6" complete="0" expand="true">
                 <depend id="24" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="24" name="Положить керамогранит на пол" meeting="false" start="2018-04-21" duration="1" complete="0" expand="true">
+            <task id="24" name="Положить керамогранит на пол" meeting="false" start="2018-05-16" duration="3" complete="0" expand="true">
                 <depend id="26" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="26" name="Борт на пол" meeting="false" start="2018-04-22" duration="1" complete="0" expand="true">
+            <task id="26" name="Борт на пол" meeting="false" start="2018-05-19" duration="1" complete="0" expand="true">
                 <depend id="28" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="28" name="Установить дверную коробку, дверь" meeting="false" start="2018-04-23" duration="1" complete="0" expand="true"/>
+            <task id="28" name="Установить дверную коробку, дверь" meeting="false" start="2018-05-20" duration="4" complete="0" expand="true"/>
         </task>
-        <task id="3" name="Спальня л" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="4" name="Спальня п" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="5" name="Лоджия" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="6" name="Кухня" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="7" name="Зал" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="8" name="Коридор" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
-        <task id="9" name="Кладовка" meeting="false" start="2018-04-14" duration="1" complete="0" expand="true"/>
+        <task id="3" name="Спальня л" meeting="false" start="2018-05-24" duration="1" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Спальня п" meeting="false" start="2018-05-25" duration="1" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Лоджия" meeting="false" start="2018-05-26" duration="1" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Кухня" meeting="false" start="2018-05-27" duration="1" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Зал" meeting="false" start="2018-05-28" duration="1" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Коридор" meeting="false" start="2018-05-29" duration="1" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Кладовка" meeting="false" start="2018-05-30" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
